@@ -1,0 +1,9 @@
+get_engines:
+    path:       /api/v1/engines
+    controller: App\Controller\EngineController::list
+    methods:    GET|HEAD
+
+translate:
+    path:       /api/v1/translate
+    controller: App\Controller\TranslatorController::translate
+    methods:    POST
